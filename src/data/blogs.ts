@@ -10,13 +10,22 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'experimenting-with-codex',
+    title: 'Experimenting with Codex (GPT-5)',
+    description: 'My hands-on experience building an influencer-brand collaboration app with Codex, including prompts, UI refactoring feedback, and what worked well in practice.',
+    date: '2026-02-22',
+    tags: ['AI', 'Codex', 'Productivity', 'Build Log'],
+    filename: 'experimenting-with-codex.md',
+    image: '/blog-data/images/experimentWithCodex.jpg',
+  },
+  {
     id: 'simple-database-bash',
     title: 'Building a Simple Database with Bash Script',
     description: 'Learn how to create a basic key-value database using only Bash scripting. We explore file-based storage, CRUD operations, and basic indexing concepts.',
     date: '2024-01-15',
     tags: ['Bash', 'Linux', 'Database', 'Tutorial'],
     filename: 'simple-database-bash.md',
-    image: '/reference-assets/SimpleDataBase.png',
+    image: '/blog-data/images/SimpleDataBase.png',
   },
   {
     id: 'todo-linux-terminal',
@@ -25,6 +34,6 @@ export const blogPosts: BlogPost[] = [
     date: '2024-02-20',
     tags: ['Linux', 'Bash', 'Productivity', 'CLI'],
     filename: 'todo-linux-terminal.md',
-    image: '/reference-assets/ToDo.png',
+    image: '/blog-data/images/ToDo.png',
   },
 ] 

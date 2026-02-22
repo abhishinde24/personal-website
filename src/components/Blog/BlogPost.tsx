@@ -53,6 +53,7 @@ function BlogPost() {
     <div>
       <Link to="/blog">← Back to Blog</Link>
       <br /><br />
+      <p className="date">{formatDate(post.date)}</p>
       {post.image && (
         <div className="responsive-image-container">
           <img src={post.image} alt={`${post.title} cover`} className="blog-hero-image" />
@@ -106,6 +107,15 @@ function BlogPost() {
       </ReactMarkdown>
     </div>
   )
+}
+
+function formatDate(dateStr: string): string {
+  const date = new Date(dateStr)
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
 }
 
 export default BlogPost

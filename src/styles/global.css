@@ -121,7 +121,7 @@ hr {
 }
 
 .post-image {
-  width: auto;
+  width: 300px;
   height: 180px;
   object-fit: cover;
   flex-shrink: 0;
@@ -131,6 +131,11 @@ hr {
   font-size: 15px;
   color: #888;
   font-style: italic;
+}
+
+.post .date {
+  margin: 0 0 8px;
+  line-height: 1.2;
 }
 
 .responsive-image-container {
