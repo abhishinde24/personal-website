@@ -1,0 +1,264 @@
+@font-face {
+  font-family: 'NIXGONM-Vb';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'NIXGONM-Vb', sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #fff;
+  color: #413e3e;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 0 50px;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #000;
+  font-weight: 1000;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 1px;
+  background-color: #ff6800;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0 20px;
+}
+
+.heading {
+  font-weight: bold;
+  margin-top: 4ch;
+}
+
+.profile-text {
+  color: #000;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.profile-image {
+  float: right;
+  margin-left: 90px;
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.post {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.post-title {
+  color: #413e3e;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.post-description {
+  font-size: 16px;
+}
+
+.post-image {
+  width: auto;
+  height: 180px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.date {
+  font-size: 15px;
+  color: #888;
+  font-style: italic;
+}
+
+.responsive-image-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-hero-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+.about-city-row {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.about-city-image-wrap {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.about-city-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.about-city-text {
+  flex: 1;
+}
+
+.about-city-text p {
+  margin-top: 0;
+}
+
+code,
+pre code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+}
+
+code:not([class*='language-']) {
+  background-color: #fff2cf;
+  color: #000;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid #ff6800;
+}
+
+::selection {
+  background-color: #fff2cf;
+  color: #000;
+}
+
+@media (min-width: 700px) {
+  .responsive-image {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 30px 20px;
+  }
+
+  main {
+    padding: 0 20px;
+  }
+
+  p,
+  .profile-text {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  .post {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .post-image {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+
+  .profile-image {
+    width: min(100%, 320px);
+    height: 360px;
+    object-fit: cover;
+    object-position: 50% 25%;
+    margin: 0 0 20px;
+    float: none;
+    display: block;
+  }
+
+  .about-city-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .about-city-image-wrap {
+    width: 100%;
+  }
+
+  .about-city-image {
+    width: min(100%, 360px);
+    height: 220px;
+    margin: 0 auto;
+  }
+}
