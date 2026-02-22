@@ -5,7 +5,7 @@ function About() {
     <div>
       <SectionHeader title="About Me" />
       <p>
-        Here&apos;s a brief bio of me that includes snippets of my life.
+        Here&apos;s a brief bio with snippets from my life.
       </p>
 
       <SectionHeader title="Latur, India" />
@@ -36,8 +36,8 @@ function About() {
         </div>
         <div className="about-city-text">
           <p>
-            I moved to Mumbai to complete my degree, a vibrant city with millions of dreams.
-            I was completely new to the big city and its teaching style. It took me some time
+            I moved to Mumbai to complete my degree. It is a vibrant city with millions of dreams.
+            I was completely new to the big city and its teaching style, and it took me some time
             to learn the culture and adapt.
           </p>
           <p>
@@ -60,10 +60,10 @@ function About() {
           <p>
             After working at a startup for a while, I decided to join Amazon and get exposure
             to distributed systems. It was a completely new experience for me, with a lot of
-            unlearning and learning to catch up with a new environment.
+            unlearning and learning to catch up in a new environment.
           </p>
           <p>
-            A few months back, I decided to move back to the startup world and joined Fivetran.
+            A few months ago, I decided to move back to the startup world and joined Fivetran.
             I now work on a core platform team responsible for providing foundational feature
             services used by more than 40 internal teams across Fivetran.
           </p>

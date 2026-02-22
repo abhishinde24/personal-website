@@ -12,7 +12,7 @@ function Home() {
         Hi, I am a Software Engineer interested in building reliable backend systems and thinking about future technology.
         <br />
         <br />
-        I currently work on distributed system at fivetran, previous at worked at Amazon and NBFC startup. Recently, I got into the interest of exploring and creating tools for next generation of AI technology.
+        I currently work on distributed systems at Fivetran and previously worked at Amazon and an NBFC startup. Recently, I became interested in exploring and creating tools for the next generation of AI technology.
         <br />
         <br />
         <br />
