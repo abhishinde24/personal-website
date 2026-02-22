@@ -144,3 +144,9 @@ I am pasting down my learnings:
 
 - I am optimistic on the agent will get better we eventually don't need to code. But the idea creation and motivation parts will driven by humans, but who knows the future. 
 - Codex GPT-5.6 worked better for my workflow than the original GPT-5. Earlier I had to tweak a lot; here it worked with fewer iterations.
+
+## Video walkthrough
+
+If you want to watch the full walkthrough, here is the video:
+
+https://youtu.be/4q71n35AexU
