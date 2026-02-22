@@ -149,4 +149,4 @@ I am pasting down my learnings:
 
 If you want to watch the full walkthrough, here is the video:
 
-https://youtu.be/4q71n35AexU
+[Watch on YouTube](https://youtu.be/4q71n35AexU)

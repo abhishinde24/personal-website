@@ -13,23 +13,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'NIXGONM-Vb', sans-serif;
-  background-color: #fff;
-  color: #000;
+  background: linear-gradient(180deg, #fff 0%, #fcfbf8 100%);
+  color: #111;
   line-height: 1.6;
 }
 
 header {
-  background-color: #fff;
-  color: #413e3e;
-  padding: 50px;
+  background-color: transparent;
+  color: #2d2a2a;
+  padding: 54px 50px 42px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 main {
-  padding: 0 50px;
+  padding: 0 48px 24px;
   text-align: left;
-  max-width: 900px;
+  max-width: 940px;
   margin: 0 auto;
 }
 
@@ -71,9 +71,9 @@ a::after {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -5px;
+  bottom: -4px;
   height: 1px;
-  background-color: #ff6800;
+  background-color: #e56200;
 }
 
 hr {
@@ -105,15 +105,19 @@ hr {
 }
 
 .post {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   display: flex;
   gap: 20px;
+  padding: 14px;
+  border: 1px solid #f3eee6;
+  border-radius: 10px;
+  background-color: #fdfcf9;
 }
 
 .post-title {
-  color: #413e3e;
+  color: #302c2c;
   font-size: 24px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .post-description {
@@ -129,7 +133,7 @@ hr {
 
 .date {
   font-size: 15px;
-  color: #888;
+  color: #7b746b;
   font-style: italic;
 }
 
@@ -153,9 +157,10 @@ hr {
 
 .blog-hero-image {
   width: 100%;
-  max-height: 420px;
+  max-height: 440px;
   object-fit: cover;
   display: block;
+  border-radius: 10px;
 }
 
 .about-city-row {
@@ -214,7 +219,7 @@ code:not([class*='language-']) {
 
 @media screen and (max-width: 768px) {
   header {
-    padding: 30px 20px;
+    padding: 30px 20px 24px;
   }
 
   main {
@@ -232,7 +237,7 @@ code:not([class*='language-']) {
   .post {
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 12px;
   }
 
   .post-image {
